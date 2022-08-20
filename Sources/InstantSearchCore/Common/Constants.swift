@@ -14,7 +14,7 @@ public struct Constants {
     // Hits
     public static let hitsPerPage: UInt = 20
     public static let infiniteScrolling: InfiniteScrolling = .on(withOffset: 5)
-    public static let showItemsOnEmptyQuery: Bool = true
+    public static let showItemsOnEmptyQuery: Bool = false
 
     // Refinement
     public static let operatorRefinement = "or"
